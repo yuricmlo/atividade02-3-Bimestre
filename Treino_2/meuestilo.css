@@ -5,6 +5,7 @@ header h1 {
     color: rgba(243, 9, 9, 0.842);
     background-color: rgb(245, 181, 6);
     text-align:center;
+    margin: 20px;
 }
 section h1,h2 {
     color:rgba(243, 9, 9, 0.842); ;
