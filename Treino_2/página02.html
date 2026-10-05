@@ -1,39 +1,62 @@
-<DOCTYPE! html>
-<html long="pt-br">
-    <head>
-        <title>Staryu Pokémon</title>
-        <link rel="stylesheet" href="meuestilo.css"
-    </head>
-    <body>
-        <header>
-            <h1>Minha página web sobre o Staryu</h1>
-        </header>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staryu Pokémon</title>
+    <link rel="stylesheet" href="meuestilo02.css">
+</head>
+<body>
+
+    <header>
+        <h1>Minha página web sobre o Staryu</h1>
+    </header>
+
+    <!-- Tag semântica MAIN adicionada para envolver todo o conteúdo principal -->
+    <main>
+        <!-- COLUNA 1 (Esquerda) -->
+    <div class="coluna">
         <section>
             <h2>Introdução sobre o Pokémon</h2>
             <p>Staryu é um Pokémon do tipo Água introduzido na Primeira Geração da franquia, conhecido por seu corpo único em formato de estrela-do-mar de cinco pontas. Sua característica mais marcante é o núcleo de joia vermelha brilhante localizado em seu centro, que é mantido no lugar por uma estrutura dourada semelhante a um anel. Esse núcleo serve como o coração do Pokémon e funciona como um indicador de sua saúde e estado emocional: quando Staryu está fraco ou doente, a joia começa a piscar suavemente, emitindo um sinal de alerta.</p>
-            <figure></figure>
-            <img src="staryu1.png" alt="staryu atacando.">
-            <figcaption>Ataque veloz.</figcaption>
-            <img src="staryu2.png" alt="staryu atacando">
-            <figcaption>Rajada de bolhas.</figcaption>
+            
+            <!-- As duas imagens e legendas estão dentro do mesmo grupo figure -->
+            <figure>
+                <img src="staryu1.png" alt="Staryu atacando com ataque veloz.">
+                <figcaption>Ataque veloz.</figcaption>
+                
+                <img src="staryu2.png" alt="Staryu usando rajada de bolhas.">
+                <figcaption>Rajada de bolhas.</figcaption>
             </figure>
         </section>
+        </div>
+
+        <!-- COLUNA 2 (Direita) -->
+    <div class="coluna">
         <section>
-            <h2>habilidades do Staryu</h2>
+            <h2>Habilidades do Staryu</h2>
             <p>Uma das capacidades biológicas mais fascinantes do Staryu é o seu impressionante poder de regeneração. Se o seu corpo sofrer danos em batalha ou for atacado por predadores marinhos, ele consegue reconstruir qualquer um de seus membros perdidos em um curto espaço de tempo, desde que o seu núcleo central permaneça intacto. Além disso, essa espécie possui uma forte conexão com o cosmos. Durante a noite, grupos de Staryu costumam flutuar até a superfície do oceano e alinhar seus núcleos brilhantes com as estrelas do céu noturno, brilhando em uníssono em um comportamento que muitos pesquisadores associam a uma forma de comunicação extraterrestre.</p>
             <figure>
-            <img src="staryu3.png" alt="satryu se regenerando">
-            <figcaption>Autoregeneração.</figcaption>
+                <img src="staryu3.png" alt="Staryu se regenerando no oceano.">
+                <figcaption>Autoregeneração.</figcaption>
             </figure>
         </section>
+
+
         <section>
             <h2>Curiosidades</h2>
             <p>Em termos de combate e evolução, Staryu é um aliado versátil e ágil para os treinadores. Apesar de ser um tipo Água puro, ele consegue aprender uma grande variedade de movimentos de outros tipos, incluindo ataques Psíquicos e Elétricos, o que surpreende os adversários em batalhas. Quando exposto à radiação de uma Pedra da Água (Water Stone), Staryu evolui para Starmie, expandindo seu corpo para dez pontas, adquirindo o tipo Psíquico secundário e transformando seu núcleo central em uma joia multicolorida com poderes mentais amplificados.</p>
             <figure>
-            <img src="starmie.png" alt="starmie atacando">
-            <figcaption>Starmie</figcaption>
+                <img src="starmie.png" alt="Starmie atacando com poderes psíquicos.">
+                <figcaption>Starmie</figcaption>
             </figure>
         </section>
-        <footer>@yurisntgo, 2026. Conteúdo autoral.</footer>
-    </body>
+        </div>
+    </main>
+
+    <footer>
+        <p>@yurisntgo, 2026. Conteúdo autoral.</p>
+    </footer>
+
+</body>
 </html>

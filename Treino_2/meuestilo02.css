@@ -28,3 +28,12 @@ figcaption {
 footer {
     background-color:rgb(245, 181, 6);
 }
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+.coluna {
+    flex: 1; /* As duas colunas dividem a tela em 50% cada */
+}
